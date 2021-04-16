@@ -1,0 +1,40 @@
+.navbar {
+    background: #202020;
+    padding: 16px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 12px #000;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #fff;
+    flex: 2;
+    transition: color 0.2s;
+}
+
+.navbar-brand:hover {
+    color: #F6B40C;
+}
+
+.navbar-ul {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-link {
+    color: #EB7000;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 4px;
+}
+
+.navbar-link:hover {
+    color: #F6B40C;
+
+}
