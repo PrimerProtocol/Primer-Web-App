@@ -27,7 +27,7 @@
     transform: translateY(-2px);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     .contract {
         width: calc((100% / 3) - 8px);
     }
